@@ -1,26 +1,39 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/landing/Navbar";
+import { Hero } from "@/components/landing/Hero";
+import { Problems } from "@/components/landing/Problems";
+import { Services } from "@/components/landing/Services";
+import { Flow } from "@/components/landing/Flow";
+import { Sectors } from "@/components/landing/Sectors";
+import { Difference } from "@/components/landing/Difference";
+import { CTA } from "@/components/landing/CTA";
+import { Footer } from "@/components/landing/Footer";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Nexora — Automatización e IA para empresas" },
+      { name: "description", content: "Diseñamos agentes IA y automatizaciones que eliminan tareas repetitivas, aceleran operaciones y multiplican la productividad de tu empresa." },
+      { property: "og:title", content: "Nexora — Automatización e IA para empresas" },
+      { property: "og:description", content: "Agencia de IA y automatización empresarial. Soluciones a medida para empresas modernas." },
+      { property: "og:type", content: "website" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <main className="min-h-screen bg-background text-foreground">
+      <Navbar />
+      <Hero />
+      <Problems />
+      <Services />
+      <Flow />
+      <Sectors />
+      <Difference />
+      <CTA />
+      <Footer />
+    </main>
+  );
 }
