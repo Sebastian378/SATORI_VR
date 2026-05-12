@@ -123,6 +123,24 @@
     color: transparent;
   }
 
+  .text-logo-gradient {
+    background: linear-gradient(to bottom right, oklch(1 0 0) 40%, var(--primary-glow) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .animate-shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.1),
+      transparent
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite linear;
+  }
+
   .bg-grid {
     background-image:
       linear-gradient(to right, oklch(1 0 0 / 0.04) 1px, transparent 1px),

@@ -7,23 +7,21 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
             <a href="#" className="flex items-center gap-2">
-              <div className="size-7 rounded-lg bg-gradient-to-br from-primary to-primary-glow grid place-items-center">
-                <Sparkles className="size-4 text-primary-foreground" />
-              </div>
-              <span className="font-display font-semibold tracking-tight">Nexora</span>
+              <span className="font-display font-semibold tracking-tight text-xl">SATORI</span>
             </a>
             <p className="mt-4 text-sm text-muted-foreground max-w-sm">
               Automatización e inteligencia artificial diseñada para empresas que
               quieren crecer sin operar al doble.
             </p>
-            <a href="mailto:hola@nexora.ai" className="mt-4 inline-block text-sm text-foreground hover:text-primary-glow transition-colors">
-              hola@nexora.ai
+            <a href="mailto:hola@satori.ai" className="mt-4 inline-block text-sm text-foreground hover:text-primary-glow transition-colors">
+              hola@satori.ai
             </a>
           </div>
 
           <div>
             <div className="text-sm font-medium">Navegación</div>
             <ul className="mt-4 space-y-2.5 text-sm text-muted-foreground">
+              <li><a href="#web" className="hover:text-foreground transition-colors">Web</a></li>
               <li><a href="#servicios" className="hover:text-foreground transition-colors">Servicios</a></li>
               <li><a href="#flujo" className="hover:text-foreground transition-colors">Flujo</a></li>
               <li><a href="#sectores" className="hover:text-foreground transition-colors">Sectores</a></li>
@@ -43,7 +41,7 @@ export function Footer() {
 
         <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Nexora. Todos los derechos reservados.
+            © {new Date().getFullYear()} SATORI. Todos los derechos reservados.
           </div>
           <div className="flex gap-3 text-muted-foreground">
             <a href="#" aria-label="LinkedIn" className="hover:text-foreground transition-colors"><Linkedin className="size-4" /></a>

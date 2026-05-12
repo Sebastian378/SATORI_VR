@@ -49,7 +49,7 @@ export function Problems() {
 
           <div className="rounded-2xl border border-primary/30 bg-gradient-to-br from-surface to-accent/40 p-6 relative overflow-hidden">
             <div className="absolute -top-20 -right-20 size-60 rounded-full bg-primary/20 blur-3xl" />
-            <div className="text-xs uppercase tracking-widest text-primary-glow mb-6 relative">Después con Nexora</div>
+            <div className="text-xs uppercase tracking-widest text-primary-glow mb-6 relative">Después con SATORI</div>
             <div className="space-y-4 relative">
               {solutions.map((s) => (
                 <div key={s.title} className="flex gap-4 p-4 rounded-xl glass">

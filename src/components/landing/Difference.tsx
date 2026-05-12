@@ -13,7 +13,7 @@ export function Difference() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div className="lg:sticky lg:top-32">
-            <span className="text-xs uppercase tracking-widest text-primary-glow">Por qué Nexora</span>
+            <span className="text-xs uppercase tracking-widest text-primary-glow">Por qué SATORI</span>
             <h2 className="mt-3 text-4xl md:text-5xl font-semibold tracking-tight">
               No somos una agencia más de IA
             </h2>

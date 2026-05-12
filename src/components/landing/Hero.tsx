@@ -24,13 +24,11 @@ export function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
-            <Button size="xl" variant="hero" className="rounded-full">
-              Solicitar automatización
-              <ArrowRight className="size-4" />
-            </Button>
-            <Button size="xl" variant="glass" className="rounded-full">
-              <Play className="size-4" />
-              Ver cómo funciona
+            <Button size="xl" variant="hero" className="rounded-full" asChild>
+              <a href="https://wa.me/573193672368?text=Saludos%2C%20Satori%20%7C%20Agencia%20de%20Innovaci%C3%B3n.%20%F0%9F%8C%90%20Estoy%20listo%20para%20implementar%20agentes%20inteligentes%20y%20servicios%20web%20avanzados%20en%20mi%20proyecto.%20Quedo%20atento%20a%20su%20respuesta%20para%20definir%20la%20hoja%20de%20ruta.%20%F0%9F%9A%80" target="_blank" rel="noopener noreferrer">
+                Solicitar automatización
+                <ArrowRight className="size-4" />
+              </a>
             </Button>
           </div>
 
@@ -59,7 +57,7 @@ function DashboardMockup() {
               <span className="size-2.5 rounded-full bg-muted-foreground/30" />
               <span className="size-2.5 rounded-full bg-muted-foreground/30" />
             </div>
-            <div className="text-xs text-muted-foreground">nexora.app / dashboard</div>
+            <div className="text-xs text-muted-foreground">satori.app / dashboard</div>
             <div className="size-6" />
           </div>
 

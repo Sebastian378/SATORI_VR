@@ -21,13 +21,17 @@ export function CTA() {
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <Button size="xl" variant="hero" className="rounded-full">
-                <Calendar className="size-4" />
-                Agendar llamada
+              <Button size="xl" variant="hero" className="rounded-full" asChild>
+                <a href="https://wa.me/573193672368" target="_blank" rel="noopener noreferrer">
+                  <Calendar className="size-4" />
+                  Contáctanos
+                </a>
               </Button>
-              <Button size="xl" variant="glass" className="rounded-full">
-                Iniciar proyecto
-                <ArrowRight className="size-4" />
+              <Button size="xl" variant="glass" className="rounded-full" asChild>
+                <a href="https://www.instagram.com/satori_vr?igsh=MXZqeHdraGtobHhtMg==" target="_blank" rel="noopener noreferrer">
+                  Ver Instagram
+                  <ArrowRight className="size-4" />
+                </a>
               </Button>
             </div>
           </div>
